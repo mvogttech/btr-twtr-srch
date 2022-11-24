@@ -57,6 +57,8 @@ async function main() {
 						);
 						searchContainer.innerHTML = SEARCH_CONTAINER_HTML;
 
+						// TODO: Add event listeners to the search items
+						// TODO: Refactor the code to make it more readable
 						document
 							.getElementById("from-option")
 							.addEventListener("click", () => {
