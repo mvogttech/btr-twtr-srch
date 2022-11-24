@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Btr Twtr Srch",
+	"version": "0.1",
+	"description": "Chrome extension to improve Twitter search UI",
+	//"default_locale": "en",
+	"content_scripts": [
+		{
+			"js": ["scripts/content.js"],
+			"css": ["styles/main.css"],
+			"matches": ["https://twitter.com/*"],
+			"run_at": "document_end"
+		}
+	]
+}

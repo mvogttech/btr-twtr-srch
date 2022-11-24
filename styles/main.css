@@ -1,0 +1,37 @@
+.search-container {
+	position: relative;
+	overflow: hidden;
+	padding: 10px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Helvetica, Arial, sans-serif;
+}
+
+.search-container .search-item {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	padding: 0 20px;
+	font-size: 13px;
+	line-height: 16px;
+	color: rgb(139, 152, 165);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.search-container .search-item:hover {
+	background-color: #1da1f2;
+}
+
+.search-container .search-item span {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	color: rgb(247, 249, 249);
+	padding-right: 20px;
+}
